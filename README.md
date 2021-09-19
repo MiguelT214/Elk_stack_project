@@ -53,7 +53,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | No                  | 10.0.0.1 10.0.0.2    |
+| Jump Box | No                  |   40.117.60.185      |
 | web-1    |             No      |  10.0.0.5           |
 | web-1    |             No      |     10.0.0.6           |
 |Elk-server| no                  |    10.1.0.4          |
