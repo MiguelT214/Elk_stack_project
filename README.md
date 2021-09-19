@@ -20,23 +20,23 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
-
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
-
+Load balancing ensures that the application will be highly efficient, in addition to restricting traffic to the network.
+What aspect of security do load balancers protect? protects the system from DDoS attacks by shifting attack traffic.
+What is the advantage of a jump box? The advantage of a JumpBox is the orgination point for launching Administrative Tasks. This ultimately sets the JumpBox as a SAW (Secure Admin Workstation). All Administrators when conducting any Administrative Task will be required to connect to the JumpBox.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
+What does Filebeat watch for?Filebeat watches for any information in the file system which has been changed and when it has.
+Filebeat also watches for log files/locations and collects log events.
+ What does Metricbeat record? takes the metrics and statistics that collects and ships them to the output you specify.It also records metric and statistical data from the operating system and from services running on the server.
+ 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| WEB-1    |          |            | Linux            |
-| WEB-2    |          |            |                  |
-| ELK      |          |            |                  |
-
+| Jump Box | Gateway  |40.117.60.185| Linux            |
+| WEB-1    | server   |10.0.0.5    | Linux            |
+| WEB-2    | server   |10.0.0.6   |  linux                |
+| ELK      | elkserver|  10.1.0.4 | linux 
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
