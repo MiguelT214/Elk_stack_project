@@ -100,7 +100,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 - 
 - Which URL do you navigate to in order to check that the ELK server is running?
 ![](https://github.com/MiguelT214/Elk_stack_project/blob/6c1f01fa354884396f152d4d1eaae835f196b347/png_screenshots_kibaba/Screen%20Shot%202021-09-14%20at%2010.38.26%20AM.png)_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-- ssh azadmin@JumpBox(Public IP)
+- ssh aazureuser@JumpBox(Public IP)
 - sudo docker container list -a (locate your ansible container)
 - sudo docker start container (name of the container)
 - sudo docker attach container (name of the container)
