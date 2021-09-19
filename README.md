@@ -69,7 +69,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Launch docker container elk
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![docker ps](https://github.com/MiguelT214/Elk_stack_project/blob/cdbd8dbb6032ad79528a76ea14668e47fc0abc91/png_screenshots_kibaba/Screen%20Shot%202021-09-19%20at%203.00.51%20AM.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
